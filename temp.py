@@ -9,7 +9,7 @@ def get_readings(pin):
         raise Exception("Error: pin cannot be 0")
     sensor = Adafruit_DHT.DHT11
     humidity, temperature = Adafruit_DHT.read_retry(sensor, pin)
-    return (humidity, temperature)
+    return (temperature, humidity)
 
 if __name__ == '__main__':
     # # init GPIO

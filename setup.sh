@@ -1,4 +1,6 @@
 #!/bin/bash
+echo "installing dependencies (NOTE UBUNTU ONLY)"
+sudo apt-get update && sudo apt-get upgrade -y && sudo apt-get install python3-setuptools python3-venv python3 python3-dev -y
 echo "Creating the virtual environment"
 python3 -m venv venv
 source venv/bin/activate

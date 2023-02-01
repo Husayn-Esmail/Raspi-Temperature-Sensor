@@ -1,3 +1,4 @@
 Adafruit_Python_DHT/
 venv/
-__pycache__
+__pycache__/
+.DS_Store/

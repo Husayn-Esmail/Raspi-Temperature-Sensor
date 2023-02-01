@@ -11,4 +11,4 @@ http://raspberrypi.stackexchange.com/questions/121963/raspberry-pi-dht-11-sensor
 https://github.com/UnPoilTefal/homebridge-advanced-http-temperature-humidity#readme
 
 ## homebridge plugin configuration
-!["images/config.png"]
+![](images/config.png)

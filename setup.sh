@@ -10,5 +10,5 @@ sudo python3 setup.py install
 echo "Installing requirements.txt"
 cd ..
 python3 -m pip install -r requirements.txt
-echo "done! please run start.sh in the virtual environment venv"
+echo "done! please run start.sh"
 
